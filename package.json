@@ -1,0 +1,39 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "this is a pokedex to find any pokemon using API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brakoweb/pokedex.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Gabriel Bracamonte <gabobrako@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brakoweb/pokedex/issues"
+  },
+  "homepage": "https://github.com/Brakoweb/pokedex#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
