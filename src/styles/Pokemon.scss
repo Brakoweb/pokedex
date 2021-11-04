@@ -1,0 +1,21 @@
+@use 'vars';
+
+.Pokemon{
+    width: 240px;
+    background-color: var(--pokebluelight);
+    border-radius: 5px;
+}
+
+.Pokemon img {
+	width: 240px;
+	height: 240px;
+	border-radius: 20px;
+	object-fit: contain;
+}
+
+.pokemon-info {
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 12px;
+    text-align: center;
+}
