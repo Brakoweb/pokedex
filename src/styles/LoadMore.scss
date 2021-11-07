@@ -1,0 +1,20 @@
+@use 'vars';
+
+.Container{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.LoadMore {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: var(--pokeblue);
+    color: rgba(white, 0.6)
+}
+
+.LoadMore:hover{
+    background-color: var(--pokeblue);
+    color: rgba(white, 1);
+}

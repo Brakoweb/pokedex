@@ -1,13 +1,16 @@
 import React from "react";
 import "../styles/Pokemon.scss";
 
-const Pokemon = ({ pokemon }) => {
+const Pokemon = ({ id, name, image, type }) => {
+    const style = `Pokemon ${type}`
     return (
-        <div className="Pokemon">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/0.png" alt="" />
+        <div className={style}>
+            <div className="id">#{id}</div>
+            <img src={image} alt="" />
             <div className="pokemon-info">
                 <div>
-                    <p>{pokemon.name}</p>
+                    <p className="name">{name}</p>
+                    <p>Type: {type}</p>
                 </div>
             </div>
         </div>

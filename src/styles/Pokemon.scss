@@ -6,6 +6,71 @@
     border-radius: 5px;
 }
 
+.normal:hover{
+	background-color: var(--normal);
+}
+.fire:hover{
+	background-color: var(--fire);
+}
+.water:hover{
+	background-color: var(--water);
+}
+.grass:hover{
+	background-color: var(--grass);
+}
+.bug:hover{
+	background-color: var(--bug);
+}
+.ice:hover{
+	background-color: var(--ice);
+}
+.rock:hover{
+	background-color: var(--rock);
+}
+.poison:hover{
+	background-color: var(--poison);
+}
+.fighting:hover{
+	background-color: var(--fighting);
+}
+.flying:hover{
+	background-color: var(--flying);
+}
+.electric:hover{
+	background-color: var(--electric);
+}
+.ground:hover{
+	background-color: var(--ground);
+}
+.psychic:hover{
+	background-color: var(--psychic);
+}
+.dragon:hover{
+	background-color: var(--dragon);
+}
+.ghost:hover{
+	background-color: var(--ghost);
+}
+.dark:hover{
+	background-color: var(--dark);
+}
+.steel:hover{
+	background-color: var(--steel);
+}
+.fairy:hover{
+	background-color: var(--fairy);
+}
+
+.id{
+	padding: 5px 0 0 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.name{
+	font-weight: bold;
+}
+
 .Pokemon img {
 	width: 240px;
 	height: 240px;
