@@ -1,0 +1,58 @@
+@use 'vars';
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--pokewhite);
+  }
+  .menu {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+  }
+  .navbar-left ul,
+  .navbar-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  .navbar-left {
+    display: flex;
+  }
+  .navbar-left ul {
+    margin-left: 12px;
+  }
+  .navbar-left ul li a,
+  .navbar-right ul li a {
+    text-decoration: none;
+    color: var(--pokewhite);
+    border-top: 1px solid var(--pokewhite);
+    padding: 8px;
+  }
+  
+  .navbar-left ul li a:hover,
+  .navbar-right ul li a:hover {
+    border-top: 1px solid var(--pokegraylight);
+    color: var(--pokegraylight);
+  }
+
+  .navbar-shopping-cart {
+    position: relative;
+  }
+  
+  @media (max-width: 640px) {
+    .menu {
+      display: block;
+    }
+    .navbar-left ul {
+      display: none;
+    }
+    .navbar-email {
+      display: none;
+    }
+  }
