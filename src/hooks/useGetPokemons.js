@@ -1,8 +1,8 @@
 import {useEffect, useState} from 'react';
 
-const useGetPokemons = () => {
+const useGetPokemons = (API) => {
     const [allPokemons, setAllPokemons] = useState([]);
-    const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=20');
+    const [loadMore, setLoadMore] = useState(API);
 
     const getAllPokemons = async () => {
         const res = await fetch(loadMore);
@@ -25,7 +25,7 @@ const useGetPokemons = () => {
         getAllPokemons();
     }, []);
 
-    return allPokemons;
+    return [allPokemons.sort((a, b) => (a.id - b.id)), loadMore];
 }
 
 export default useGetPokemons;

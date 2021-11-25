@@ -1,6 +1,7 @@
 import React from 'react';
 import title from '../assets/title.webp';
 import '../styles/Header.scss';
+import Search from './Search.jsx';
 
 const Header = () => {
     return (
@@ -43,7 +44,7 @@ const Header = () => {
 
             <div className="navbar-right">
                 <ul>
-                    
+                    <Search />
                 </ul>
             </div>
         </nav>

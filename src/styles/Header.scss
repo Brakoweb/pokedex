@@ -10,7 +10,9 @@ nav {
     display: none;
   }
   .logo {
-    width: 100px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
   }
   .navbar-left ul,
   .navbar-right ul {
