@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/PokemonList.scss';
 import Pokemon from '../components/Pokemon.jsx';
 import useGetPokemons from '../hooks/useGetPokemons';
-import LoadMore from '../components/loadMore.jsx';
+import LoadMore from '../components/LoadMore.jsx';
 const API = 'https://pokeapi.co/api/v2/pokemon?limit=151';
 
 const PokemonList = () => {
